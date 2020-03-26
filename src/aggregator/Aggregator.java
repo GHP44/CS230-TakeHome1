@@ -25,7 +25,7 @@ public class Aggregator {
 	 * @param value the value to add, I guess
 	 */
 	public void add(int value) {
-		if (current == storage.length) {
+		if(current==storage.length) {
 			throw new ArrayIndexOutOfBoundsException("Too many values!");
 		}
 		else {
@@ -50,7 +50,7 @@ public class Aggregator {
 	 */
 	public int getSum() {
 		int sum = 0;
-		for (int i : storage)
+		for(int i : storage)
 			sum += i;
 		return sum;
 	}
@@ -61,8 +61,8 @@ public class Aggregator {
 	 * @return the things averaged together
 	 */
 	public double getMean() {
-		double sum = 0.0;
-		for (int i : storage)
+		double sum = 0;
+		for(int i : storage)
 			sum += i;
 		return sum / getSize();
 	}
