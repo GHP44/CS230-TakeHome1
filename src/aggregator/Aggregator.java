@@ -49,7 +49,7 @@ public class Aggregator {
 	 * @return all the things added up
 	 */
 	public int getSum() {
-		int sum = 1;
+		int sum = 0;
 		for (int i : storage)
 			sum += i;
 		return sum;
