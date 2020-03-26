@@ -14,7 +14,7 @@ public class AggregatorTest {
 		boolean passed = true;
 		
 		// test initial size
-		if(testObj.getSize() != 0) {
+		if (testObj.getSize() != 0) {
 			System.err.println("ERROR: failed initial size!");
 			passed = false;
 		}
@@ -24,18 +24,18 @@ public class AggregatorTest {
 		int second = 12;
 		testObj.add(first);
 		testObj.add(second);
-		if(first+second != testObj.getSum()) {
+		if (first + second != testObj.getSum()) {
 			System.err.println("ERROR: failed sum test!");
 			passed = false;
 		}
 		
 		// test mean
-		if((first+second)/2.0 != testObj.getMean()) {
+		if ((first + second) / 2.0 != testObj.getMean()) {
 			System.err.println("ERROR: failed mean test!");
 			passed = false;
 		}
 		
-		if(passed) {
+		if (passed) {
 			System.out.println("Passed all tests!");
 		}
 	}
