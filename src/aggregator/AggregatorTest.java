@@ -1,5 +1,10 @@
 package aggregator;
 
+/**
+ * The tester class for the Aggregator.
+ * 
+ * @author Alice and Bob
+ */
 public class AggregatorTest {
 	
 	/**
