@@ -7,12 +7,6 @@ package aggregator;
  */
 public class AggregatorTest {
 	
-	/**
-	 * Run the tests!
-	 * What is JUnit?  I don't understand.
-	 * 
-	 * @param args arguments, but not needed
-	 */
 	public static void main(String[] args) {
 		Aggregator testObj = new Aggregator(2);
 		
